@@ -1,4 +1,3 @@
-
 Orbitcoin [ORB]:
 
 PoW/Pos Hybrid based on NovaCoin
@@ -9,4 +8,5 @@ Linear (per block) diff adjustment
 5 transaction confirms
 Default RPCPort=15299
 Default P2PPort=15298
+
 
