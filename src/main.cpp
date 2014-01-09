@@ -1025,9 +1025,9 @@ unsigned int static GetNextTargetRequired(const CBlockIndex* pindexLast, bool fP
 
     
     int64 nActualSpacing = pindexPrev->GetBlockTime() - pindexPrevPrev->GetBlockTime();
-
-	int nHeight = pindexPrev->nHeight+1;
-	if (nHeight >= 411650 & nActualSpacing < 0) nActualSpacing = 0;  //Sanity Check on nActualSpacing, corrects negative block values
+    
+    // Patch to prevent negative nActualSpacing (if negative time spacing between blocks big enough it cause complete fail of PoW mining)
+    if (nBestHeight >= 412300 && nActualSpacing < 0) nActualSpacing = 0;
 	
     // ppcoin: target change every block
     // ppcoin: retarget with exponential moving toward target spacing
