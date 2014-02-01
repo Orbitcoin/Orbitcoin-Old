@@ -341,7 +341,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-13"/>
-        <source>&amp;Receive coins</source>
+        <source>&amp;Receive Orbs</source>
         <translation>&amp;Получение монет</translation>
     </message>
     <message>
@@ -351,7 +351,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-7"/>
-        <source>&amp;Send coins</source>
+        <source>&amp;Send Orbs</source>
         <translation>Отп&amp;равка монет</translation>
     </message>
     <message>
@@ -420,7 +420,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>Send coins to a Orbitcoin address</source>
+        <source>Send Orbs to a Orbitcoin address</source>
         <translation>Отправить монеты на указанный адрес Orbitcoin</translation>
     </message>
     <message>
@@ -477,6 +477,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+168"/>
         <source>&amp;About Orbitcoin</source>
         <translation>&amp;О Orbitcoin</translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>&amp;Command Line Console</source>
+        <translation>&amp;Консоль команд</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1316,6 +1321,21 @@ Address: %4
         <translation>Подтвердить отправку</translation>
     </message>
     <message>
+        <location line="+25"/>
+        <source>Transaction &amp;comment: </source>
+        <translation>Комментарий платежа: </translation>
+    </message>
+    <message>
+        <location line="+124"/>
+        <source>Enter a transaction comment (Note: This information is public)</source>
+        <translation>Введите примечание к платежу (Внимание: Эта информация доступна публично)</translation>
+    </message>
+    <message>
+        <location line="+41"/>
+        <source>Enter a transaction comment (Note: this information is public)</source>
+        <translation>Введите примечание к платежу (Внимание: Эта информация доступна публично)</translation>
+    </message>    
+    <message>
         <location line="+3"/>
         <source>S&amp;end</source>
         <translation>&amp;Отправить</translation>
@@ -1407,7 +1427,7 @@ Address: %4
     <message>
         <location line="+18"/>
         <source>The address to send the payment to  (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Адрес получателя платежа (например 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <translation>Адрес получателя платежа (например ofqKmrrViQjkxLAqNrcvEdFomCtqtFuVvW)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1436,8 +1456,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Orbitcoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Введите Orbitcoin-адрес (например 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a valid Orbitcoin address</source>
+        <translation>Введите Orbitcoin-адрес (например ofqKmrrViQjkxLAqNrcvEdFomCtqtFuVvW)</translation>
     </message>
 </context>
 <context>
@@ -1540,8 +1560,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Orbitcoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Введите адрес Orbitcoin (напр. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a valid Orbitcoin address</source>
+        <translation>Введите адрес Orbitcoin (напр. ofqKmrrViQjkxLAqNrcvEdFomCtqtFuVvW)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1763,7 +1783,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 200 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Сгенерированные монеты должны подождать 520 блоков, прежде чем они могут быть потрачены. Когда Вы сгенерировали этот блок, он был отправлен в сеть для добавления в цепочку блоков. Если данная процедура не удастся, статус изменится на «не подтверждено», и монеты будут недействительны. Это иногда происходит в случае, если другой узел сгенерирует блок на несколько секунд раньше вас.</translation>
+        <translation>Сгенерированные монеты должны подождать 200 блоков, прежде чем они могут быть потрачены. Когда Вы сгенерировали этот блок, он был отправлен в сеть для добавления в цепочку блоков. Если данная процедура не удастся, статус изменится на «не подтверждено», и монеты будут недействительны. Это иногда происходит в случае, если другой узел сгенерирует блок на несколько секунд раньше вас.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2192,8 +2212,8 @@ Address: %4
     </message>
     <message>
         <location line="-26"/>
-        <source>Listen for connections on &lt;port&gt; (default: 7777 or testnet: 17777)</source>
-        <translation>Принимать входящие подключения на &lt;port&gt; (по умолчанию: 7777 или 17777 в тестовой сети)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 15289 or testnet: 25298)</source>
+        <translation>Принимать входящие подключения на &lt;port&gt; (по умолчанию: 15298 или 25298 в тестовой сети)</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2247,8 +2267,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8344 or testnet: 18344)</source>
-        <translation>Прослушивать подключения JSON-RPC на &lt;порту&gt; (по умолчанию: 8344 или для testnet: 18344)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 15299 or testnet: 25299)</source>
+        <translation>Прослушивать подключения JSON-RPC на &lt;порту&gt; (по умолчанию: 15299 или для testnet: 25299)</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -2357,7 +2377,7 @@ Address: %4
     </message>
     <message>
         <location line="+2"/>
-        <source>Find peers using DNS lookup (default: 0 unless -connect)</source>
+        <source>Find peers using DNS lookup (default: 0)</source>
         <translation>Искать узлы с помощью DNS (по умолчанию: 0)</translation>
     </message>
     <message>

@@ -341,8 +341,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-13"/>
-        <source>&amp;Receive coins</source>
-        <translation>&amp;Receive coins</translation>
+        <source>&amp;Receive Orbs</source>
+        <translation>&amp;Receive Orbs</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -351,8 +351,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-7"/>
-        <source>&amp;Send coins</source>
-        <translation>&amp;Send coins</translation>
+        <source>&amp;Send Orbs</source>
+        <translation>&amp;Send Orbs</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -419,8 +419,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>Send coins to a Orbitcoin address</source>
-        <translation>Send coins to a Orbitcoin address</translation>
+        <source>Send Orbs to a Orbitcoin address</source>
+        <translation>Send Orbs to a Orbitcoin address</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -2180,8 +2180,8 @@ Address: %4
     </message>
     <message>
         <location line="-26"/>
-        <source>Listen for connections on &lt;port&gt; (default: 7777 or testnet: 17777)</source>
-        <translation>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 15298 or testnet: 25298)</source>
+        <translation>Listen for connections on &lt;port&gt; (default: 15298 or testnet: 25298)</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2235,8 +2235,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8344 or testnet: 18344)</source>
-        <translation type="unfinished"></translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 15299 or testnet: 25299)</source>
+        <translation>Listen for JSON-RPC connections on &lt;port&gt; (default: 15299 or testnet: 25299)</translation>
     </message>
     <message>
         <location line="+31"/>
